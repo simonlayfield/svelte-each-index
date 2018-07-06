@@ -1,0 +1,67 @@
+<div class="grid">
+	{#each sets as set, i}
+		<div class="set set-{i}">
+			<div class="illustration">
+				<div class="shape"><img src="assets/triangle.svg" alt="{i}" style="transform: rotate({i*10}deg);"></div>
+				<div class="shape"><img src="assets/dot-slash.svg" alt="{i}" style="transform: rotate({i*10}deg);"></div>
+				<div class="shape"><img src="assets/curves.svg" alt="{i}" style="transform: rotate({i*10}deg);"></div>
+			</div>
+			<p class="title">{set.title} {i+1}</p>
+		</div>
+	{/each}
+</div>
+
+<style>
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
+		grid-gap: 80px;
+		width: 100%;
+		justify-content: center;
+	}
+	.illustration {
+		position: relative;
+		height: 300px;
+		width: 100%;
+	}
+	.shape {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.title {
+		text-align: center;
+	}
+	img {
+		max-width: 100%;
+	}
+</style>
+
+<script>
+	export default {
+		data() {
+			return {
+				sets: [{
+					title: "Illustration"
+				},{
+					title: "Illustration"
+				},{
+					title: "Illustration"
+				},{
+					title: "Illustration"
+				},{
+					title: "Illustration"
+				},{
+					title: "Illustration"
+				},{
+					title: "Illustration"
+				},{
+					title: "Illustration"
+				}]
+			}
+		}
+	};
+</script>
