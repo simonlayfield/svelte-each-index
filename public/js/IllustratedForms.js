@@ -100,7 +100,7 @@ var IllustratedForms = (function() { "use strict";
 			c() {
 				div = createElement("div");
 				div_1 = createElement("div");
-				div_1.innerHTML = "<div class=\"shape shape-\"><img src=\"assets/triangle.svg\" alt=undefined style=\"transform: rotate(\" class=\"svelte-y9qxnt\"></div>\n\t\t\t\t<div class=\"shape svelte-y9qxnt\"><img src=\"assets/dot-slash.svg\" alt=undefined style=\"transform: rotate(\" class=\"svelte-y9qxnt\"></div>\n\t\t\t\t<div class=\"shape svelte-y9qxnt\"><img src=\"assets/curves.svg\" alt=undefined style=\"transform: rotate(\" class=\"svelte-y9qxnt\"></div>";
+				div_1.innerHTML = "<div class=\"shape svelte-y9qxnt\"><img src=\"assets/triangle.svg\" alt=undefined style=\"transform: rotate(\" class=\"svelte-y9qxnt\"></div>\n\t\t\t\t<div class=\"shape svelte-y9qxnt\"><img src=\"assets/dot-slash.svg\" alt=undefined style=\"transform: rotate(\" class=\"svelte-y9qxnt\"></div>\n\t\t\t\t<div class=\"shape svelte-y9qxnt\"><img src=\"assets/curves.svg\" alt=undefined style=\"transform: rotate(\" class=\"svelte-y9qxnt\"></div>";
 				text_3 = createText("\n\t\t\t");
 				p = createElement("p");
 				text_4 = createText(text_4_value);
